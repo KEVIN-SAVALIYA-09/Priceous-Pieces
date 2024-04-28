@@ -4,7 +4,7 @@ let password = document.getElementById('password');
 let btn = document.getElementById('btn');
 
 registereddata=[];
-// localStorage.setItem('rdata',JSON.stringify(registereddata));
+localStorage.setItem('rdata',JSON.stringify(registereddata));
 
 btn.addEventListener('click', (e)=>{
     e.preventDefault();
